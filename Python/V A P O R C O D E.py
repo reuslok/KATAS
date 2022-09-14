@@ -6,3 +6,5 @@ def vaporcode(s):
         a = a + x +"  "
     a = a.strip()
     return(a)
+#2nd answer
+return "  ".join(s.replace(" ", "").upper())
